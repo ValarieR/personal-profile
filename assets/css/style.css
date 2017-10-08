@@ -1,7 +1,7 @@
 /* Main Body Styling */
 
 .parallax-container {
-      height: 180px;
+      height: 130px;
     }
 
 a {
@@ -40,12 +40,26 @@ main {
 .x-large {
   font-size: x-large;
   padding-left: 60px;
+  font-weight: bold;
 }
 
 #sub-btn {
   margin-right: 11px;
   background-color: #7e57c2;
 }
+
+.card-title {
+  font-family: 'Homemade Apple', cursive;
+}
+
+.fa-3x {
+  color: #212121;
+}
+
+.card {
+  margin: -56px -200px 0 58px;
+}
+
 
 
 /* Begin footer styling */

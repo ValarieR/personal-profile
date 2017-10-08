@@ -18,6 +18,10 @@ main {
     flex: 1 0 auto;
   }
 
+.responsive-img {
+  margin-left: 135px;
+  margin-top: 23px;
+}
 
 
 /* Begin footer styling */

@@ -24,7 +24,17 @@ main {
 }
 
 .portfolio-title-item {
-  color: black;
+  width: 200px;
+  margin-top: -35px;
+}
+
+.title-words {
+  color: #111;
+  text-align: center;
+  background-color: #dddc6d;
+  position: sticky;
+  padding: 3px 10px 3px 10px;
+  font-family: Consolas;
 }
 
 

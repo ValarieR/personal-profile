@@ -7,10 +7,14 @@
     <link rel="shortcut icon" href="assets/images/R.ico" type="image/x-icon">
     <!-- Viewport setting -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Firebase Link -->
+    <script src="https://www.gstatic.com/firebasejs/4.5.0/firebase.js"></script>
     <!-- Font Awesome Link -->
     <script src="https://use.fontawesome.com/f59413c927.js"></script>
     <!-- Google Fonts Link -->
     <link href="https://fonts.googleapis.com/css?family=Homemade+Apple|Josefin+Sans" rel="stylesheet">
+    <!-- Link to Materialize Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
     <!-- JQuery Link -->
@@ -27,6 +31,34 @@
             <div class="parallax"><img src="assets/images/pexels-photo-249798.png"></div>
         </div>
         <div class="section white">
+
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">account_circle</i>
+                  <input id="icon_prefix" type="text" class="validate">
+                  <label for="icon_prefix">Name</label>
+                </div>
+                <div class="input-field col s6">
+                  <i class="material-icons prefix">email</i>
+                  <input id="icon_telephone" type="tel" class="validate">
+                  <label for="icon_telephone">Email Address</label>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="row">
+            <form class="col s12">
+              <div class="row">
+                <div class="input-field col s12">
+                  <textarea id="textarea1" class="materialize-textarea"></textarea>
+                  <label for="textarea1">What's on your mind?</label>
+                </div>
+              </div>
+            </form>
+          </div>
+
             
         </div>
         <div class="parallax-container">

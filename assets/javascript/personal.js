@@ -23,8 +23,10 @@ $(document).ready(function(){
 	  var name;
 	  var emailAdd;
 	  var message;
+	  var sv;
 
 	  var database = firebase.database();
+
 
 	  // function for clicking submit
 
@@ -59,9 +61,10 @@ $(document).ready(function(){
 
         clearFields();
 
-
 	  	//close of on click submit btn
 	  });
+
+	  
 
 
 

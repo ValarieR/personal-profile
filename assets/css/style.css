@@ -23,11 +23,15 @@ main {
   margin-top: 23px;
 }
 
+.portfolio-title-item {
+  color: black;
+}
+
 
 /* Begin footer styling */
 
 .page-footer {
-	background-color: #d81b60;
+	background-color: #f51e70;
 	text-align: center;
 	bottom: 0;
     z-index: 4;

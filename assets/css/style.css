@@ -1,0 +1,37 @@
+/* Main Body Styling */
+
+.parallax-container {
+      height: 180px;
+    }
+
+a {
+	color: white;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+main {
+    flex: 1 0 auto;
+  }
+
+
+
+/* Begin footer styling */
+
+.page-footer {
+	background-color: #d81b60;
+	text-align: center;
+}
+
+.copy {
+	text-align: center;
+}
+
+#signature,
+#footer-links {
+	font-family: 'Homemade Apple', cursive;
+}

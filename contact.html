@@ -35,15 +35,16 @@
           <div class="row">
             <form class="col s12">
               <div class="row">
+                <div class="my-name x-large">I'd love to hear from you.</div>
                 <div class="input-field col s6">
                   <i class="material-icons prefix">account_circle</i>
-                  <input id="icon_prefix" type="text" class="validate">
+                  <input id="icon_prefix" type="text" class="validate info">
                   <label for="icon_prefix">Name</label>
                 </div>
                 <div class="input-field col s6">
                   <i class="material-icons prefix">email</i>
-                  <input id="icon_telephone" type="tel" class="validate">
-                  <label for="icon_telephone">Email Address</label>
+                  <input id="email" type="email" class="validate info">
+                  <label for="email">Email Address</label>
                 </div>
               </div>
             </form>
@@ -52,8 +53,14 @@
             <form class="col s12">
               <div class="row">
                 <div class="input-field col s12">
-                  <textarea id="textarea1" class="materialize-textarea"></textarea>
+                  <i class="material-icons prefix">mode_edit</i>
+                  <textarea id="textarea1" class="materialize-textarea info"></textarea>
                   <label for="textarea1">What's on your mind?</label>
+                </div>
+                <div class="right-align">
+                  <button class="btn waves-effect waves-light" type="submit" name="action" id="sub-btn">Submit
+                    <i class="material-icons right">send</i>
+                  </button>
                 </div>
               </div>
             </form>

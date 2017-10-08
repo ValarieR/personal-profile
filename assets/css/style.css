@@ -37,6 +37,16 @@ main {
   font-family: Consolas;
 }
 
+.x-large {
+  font-size: x-large;
+  padding-left: 60px;
+}
+
+#sub-btn {
+  margin-right: 11px;
+  background-color: #7e57c2;
+}
+
 
 /* Begin footer styling */
 

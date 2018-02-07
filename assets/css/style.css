@@ -18,9 +18,13 @@ main {
     flex: 1 0 auto;
   }
 
+p {
+    text-align: justify;
+}
+
 .responsive-img {
-  margin-left: 135px;
-  margin-top: 23px;
+  margin-left: auto;
+  margin-top: auto;
 }
 
 .portfolio-title-item {
@@ -59,8 +63,6 @@ main {
 .card {
   margin: -56px -200px 0 58px;
 }
-
-
 
 /* Begin footer styling */
 

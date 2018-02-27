@@ -6,7 +6,7 @@ $(document).ready(function(){
       $('.carousel').carousel();
 
 
-      // Initialize Firebase
+      	  // Initialize Firebase
 	  var config = {
 	    apiKey: "AIzaSyDHqWcl97ZbHgWAseXMmBkuS-GQN4KkIyY",
 	    authDomain: "contac-f92f8.firebaseapp.com",
@@ -19,7 +19,6 @@ $(document).ready(function(){
 	  firebase.initializeApp(config);
 
 	  // global variable declaration
-
 	  var name;
 	  var emailAdd;
 	  var message;
@@ -29,7 +28,6 @@ $(document).ready(function(){
 
 
 	  // function for clicking submit
-
 	  $("#sub-btn").on("click", function() {
 
 	  	//prevent refresh
@@ -45,7 +43,7 @@ $(document).ready(function(){
 	  	console.log("Email:" + emailAdd);
 	  	console.log("Message:" + message);
 
-	  	// Firebase Info
+	// Firebase Info
         database.ref('/Contacts').push({
             name: name,
             emailAdd: emailAdd,
@@ -61,27 +59,8 @@ $(document).ready(function(){
 
         clearFields();
 
-	  	//close of on click submit btn
+	  //close of on click submit btn
 	  });
 
-	  
-
-
-
-
-
-  //     $("#textarea1").keyup(function(event){
-  //   		if(event.keyCode == 13){
-  //       		$("#textarea1").click();
-  //   		}
-		// });
-
-
-
-
-
-
-
-
-      //close of doc ready
+    //close of doc ready
     });

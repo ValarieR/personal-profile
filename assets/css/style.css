@@ -8,6 +8,10 @@ a {
 	color: white;
 }
 
+h4 {
+  color: #34a0a3;
+}
+
 body {
     display: flex;
     min-height: 100vh;

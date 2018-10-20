@@ -20,6 +20,7 @@ main {
 
 p {
     text-align: justify;
+    font-family: 'Roboto', sans-serif;
 }
 
 .responsive-img {
@@ -35,7 +36,7 @@ p {
 .title-words {
   color: #111;
   text-align: center;
-  background-color: #dddc6d;
+  background-color: #c9b33c;
   position: sticky;
   padding: 3px 10px 3px 10px;
   font-family: Consolas;
